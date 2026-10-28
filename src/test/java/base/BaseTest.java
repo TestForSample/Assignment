@@ -6,10 +6,10 @@ import org.testng.annotations.BeforeClass;
 public class BaseTest {
 
     protected final String BASE_URL =
-            "https://staging.agechecked.com/api/acapiremote/ac0101";
+            "https://staging.testing.com/api/";
 
     protected static final String API_KEY =
-            "Cm9U48CxDuG7ntq3TAWJvGKJtkKnLvPwijb3nVg329Ly8ipafLcAx0s035y3x12f";
+            "abcAbc00001";
 
     @BeforeClass
     public void setup() {
